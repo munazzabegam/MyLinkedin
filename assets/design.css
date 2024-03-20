@@ -1,0 +1,50 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    text-align: center;
+    margin: 40px 20px;
+    color: #343a40;
+    font-weight: bold;
+}
+
+.design-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.design-card {
+    width: 300px;
+    text-align: center;
+    background-color: #fff; 
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 15px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.design-card:hover {
+   transform: scale(1.05);
+}
+
+.design-card img {
+    width: 100%;
+    height: auto;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.design-card h3 {
+    margin-top: 10px;
+}
+
+@media (max-width: 768px) {
+.design-card {
+width: 100%;
+    }
+}
